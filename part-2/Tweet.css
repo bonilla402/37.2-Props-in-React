@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    padding: 20px;
+}
+
+.tweet {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.tweet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tweet-header .username,
+.tweet-header .name {
+    font-weight: bold;
+}
+
+.tweet-header .date {
+    color: #657786;
+    font-size: 0.9em;
+}
+
+.tweet-message {
+    margin-top: 10px;
+    line-height: 1.5;
+}
